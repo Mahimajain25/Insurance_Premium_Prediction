@@ -1,0 +1,11 @@
+numpy
+Flask
+gunicorn
+sklearn
+pandas
+PyYAML
+evidently
+dill
+matplotlib
+googledrivedownloader
+-e .
