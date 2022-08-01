@@ -5,7 +5,7 @@
 - This can assist a person in concentrating on the health side of an insurance policy rather han the ineffective part.
 ## Deployment link
 Heroku Deployment
-- https://insurance-premium-prediction-1.herokuapp.com/
+- https://insurance-premium-prediction-0.herokuapp.com/
 ![Screenshot landing](https://raw.githubusercontent.com/Mahimajain25/Insurance_Premium_Prediction/main/z_project_image/Insurance_landing_page.png)
 ## Approach
 
