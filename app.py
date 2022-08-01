@@ -178,7 +178,6 @@ def update_model_config():
         logging.exception(e)
         return str(e)
 
-
 @app.route(f'/logs', defaults={'req_path': f'{LOG_FOLDER_NAME}'})
 @app.route(f'/{LOG_FOLDER_NAME}/<path:req_path>')
 def render_log_dir(req_path):
@@ -186,8 +185,6 @@ def render_log_dir(req_path):
     # Joining the base and the requested path
     logging.info(f"req_path: {req_path}")
     abs_path = os.path.join(req_path)
-    #abs_path = os.path.join(ROOT_DIR,INSURANCE_LOGS_FOLDER)
-    #abs_path = 'D:\PyCharm\Insurance_Premium_Prediction\Insurance_Premium_Prediction\Insurance_premium_logs'
     print(abs_path)
     # Return 404 if path doesn't exist
     if not os.path.exists(abs_path):
@@ -208,6 +205,7 @@ def render_log_dir(req_path):
         "parent_label": abs_path
     }
     return render_template('log_files.html', result=result)
+
 
 
 if __name__ == "__main__":

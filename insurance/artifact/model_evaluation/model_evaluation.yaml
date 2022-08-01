@@ -1,0 +1,5 @@
+best_model:
+  model_path: D:\PyCharm\insurance_premium_new\Insurance_Premium_Prediction\insurance\artifact\model_trainer\2022-08-01-17-17-50\trained_model\model.pkl
+history:
+  2022-08-01-17-17-50:
+    model_path: D:\PyCharm\insurance_premium_new\Insurance_Premium_Prediction\insurance\artifact\model_trainer\2022-08-01-17-17-22\trained_model\model.pkl
