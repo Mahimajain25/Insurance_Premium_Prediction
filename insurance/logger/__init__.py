@@ -2,13 +2,12 @@ import logging
 from datetime import datetime
 import os
 import pandas as pd
-from housing.constant import get_current_time_stamp
-
+from insurance.constant import get_current_timestamp
 LOG_DIR = "logs"
 
 
 def get_log_file_name():
-    return f"log_{get_current_time_stamp()}.log"
+    return f"log_{get_current_timestamp()}.log"
 
 
 LOG_FILE_NAME = get_log_file_name()
