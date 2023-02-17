@@ -3,10 +3,7 @@
 - The goal of this project is to give people an estimate of how much they need based on their individual health situation. 
 -  After that, customers can work with any health insurance carrier and its plans and perks while keeping the projected cost from our study in mind. 
 - This can assist a person in concentrating on the health side of an insurance policy rather han the ineffective part.
-## Deployment link
-Heroku Deployment
-- https://insurance-premium-prediction-0.herokuapp.com/
-![Screenshot landing](https://raw.githubusercontent.com/Mahimajain25/Insurance_Premium_Prediction/main/z_project_image/Insurance_landing_page.png)
+
 ## Approach
 
 - **Exploratory Data Analysis :** Analysed the dataset in google colab using pandas, numpy, matplotlib library.  [EDA file](https://github.com/Mahimajain25/Insurance_Premium_Prediction/blob/main/Insurance_premium_EDA.ipynb)
